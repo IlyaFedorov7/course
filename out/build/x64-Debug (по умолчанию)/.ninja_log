@@ -33,3 +33,6 @@
 2024	2240	630115512	hospital/tables_init.exe	bda730954119192a
 1	1498	630115533	hospital/CMakeFiles/tables_init.dir/source/tables_init.cpp.obj	b91db13068a38a09
 1500	1687	630115534	hospital/tables_init.exe	bda730954119192a
+9	592	630294564	build.ninja	1becfd54fced1d3e
+3	1668	630294736	hospital/CMakeFiles/test.dir/source/editor.cpp.obj	cb7081715ca8d41b
+1671	1939	630294737	hospital/test.exe	39c2934c0b5f1616

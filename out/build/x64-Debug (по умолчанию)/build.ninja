@@ -263,7 +263,7 @@ build hospital\tables_init_autogen\timestamp: CUSTOM_COMMAND C$:\Qt_vs\5.15.2\ms
 #############################################
 # Phony custom command for hospital\CMakeFiles\test_autogen_timestamp_deps
 
-build hospital\CMakeFiles\test_autogen_timestamp_deps: phony C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Guid.dll
+build hospital\CMakeFiles\test_autogen_timestamp_deps: phony C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll
 
 
 #############################################
@@ -275,7 +275,7 @@ build hospital\CMakeFiles\test_autogen hospital\test_autogen\mocs_compilation.cp
 #############################################
 # Phony custom command for hospital\CMakeFiles\tables_init_autogen_timestamp_deps
 
-build hospital\CMakeFiles\tables_init_autogen_timestamp_deps: phony C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Guid.dll
+build hospital\CMakeFiles\tables_init_autogen_timestamp_deps: phony C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Sqld.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\moc.exe C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Cored.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Guid.dll C$:\Qt_vs\5.15.2\msvc2019_64\bin\Qt5Widgetsd.dll
 
 
 #############################################

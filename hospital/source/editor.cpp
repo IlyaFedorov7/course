@@ -97,7 +97,7 @@ void Editor::update() {
 		query->bindValue(":coeff", ui.doubleSpinBox->value());
 		std::cout << query->exec();
 
-		query->prepare(R"(update ZpVedomost set coeff_experience = :coeffExp, Vyplata_oklad = :pay, Vyplata_gen = :generalPay
+		query->prepare(R"(update ZpVedomost set coeff_experience = :coeffExp, Vyplata_oklad = :pay, Vyplata_gen = :generalPay*coeff_shifts+increase
 		where Kod_Z = (select Kod_Z_ZpVedomost from Vrach where ID = :id))");
 		query->bindValue(":id", id);
 		query->bindValue(":coeffExp", ui.doubleSpinBox->value());
