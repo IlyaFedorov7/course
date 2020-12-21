@@ -1,0 +1,10 @@
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/CMakeFiles/edit_cache.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/CMakeFiles/rebuild_cache.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/rebuild_cache.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/test.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/tables_init.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/edit_cache.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/test_autogen_timestamp_deps.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/test_autogen.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/tables_init_autogen_timestamp_deps.dir
+C:/Users/lichk/source/repos/hospital/out/build/x64-Release/hospital/CMakeFiles/tables_init_autogen.dir

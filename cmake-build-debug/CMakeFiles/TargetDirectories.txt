@@ -1,0 +1,8 @@
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/hospital/CMakeFiles/rebuild_cache.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/hospital/CMakeFiles/test.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/hospital/CMakeFiles/tables_init.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/hospital/CMakeFiles/edit_cache.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/hospital/CMakeFiles/test_autogen.dir
+C:/Users/lichk/source/repos/hospital/cmake-build-debug/hospital/CMakeFiles/tables_init_autogen.dir

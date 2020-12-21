@@ -1,0 +1,119 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "hospital",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "hospital",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "RelWithDebInfo",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "hospital",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "tables_init::@03ed44559212f5477097",
+					"jsonFile" : "target-tables_init-RelWithDebInfo-673958358dd38724e275.json",
+					"name" : "tables_init",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tables_init_autogen::@03ed44559212f5477097",
+					"jsonFile" : "target-tables_init_autogen-RelWithDebInfo-a37817c85ea5583fe2ab.json",
+					"name" : "tables_init_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tables_init_autogen_timestamp_deps::@03ed44559212f5477097",
+					"jsonFile" : "target-tables_init_autogen_timestamp_deps-RelWithDebInfo-c1549c19da314d6de874.json",
+					"name" : "tables_init_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test::@03ed44559212f5477097",
+					"jsonFile" : "target-test-RelWithDebInfo-b98d8f9802ca31c84eca.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_autogen::@03ed44559212f5477097",
+					"jsonFile" : "target-test_autogen-RelWithDebInfo-aa4824d1855d3ae0b9e5.json",
+					"name" : "test_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_autogen_timestamp_deps::@03ed44559212f5477097",
+					"jsonFile" : "target-test_autogen_timestamp_deps-RelWithDebInfo-03d8768798dde16013ec.json",
+					"name" : "test_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/lichk/source/repos/hospital/out/build/x64-Release",
+		"source" : "C:/Users/lichk/source/repos/hospital"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 1
+	}
+}

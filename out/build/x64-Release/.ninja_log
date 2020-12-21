@@ -1,0 +1,5 @@
+# ninja log v5
+1	61	630206277	hospital/tables_init_autogen/timestamp	4da43060e58aece7
+61	117	630206277	hospital/CMakeFiles/tables_init.dir/tables_init_autogen/mocs_compilation.cpp.obj	2b2756bc32d4478
+63	2777	630206279	hospital/CMakeFiles/tables_init.dir/source/tables_init.cpp.obj	b4869b69dae9b541
+2793	3078	630206280	hospital/tables_init.exe	e5054a75672cbc4
