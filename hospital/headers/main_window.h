@@ -6,7 +6,7 @@
 #include "shifts_modal.h"
 #include "call_modal.h"
 #include <ui_main_window.h>
-
+/// класс главного окна программы
 class MainWindow : public QMainWindow {
 	Q_OBJECT
 public: 

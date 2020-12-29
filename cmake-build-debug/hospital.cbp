@@ -234,9 +234,6 @@
 		<Unit filename="C:/Users/lichk/source/repos/hospital/hospital/headers/ui_editor.h">
 			<Option target="test"/>
 		</Unit>
-		<Unit filename="C:/Users/lichk/source/repos/hospital/hospital/headers/ui_main_window.h">
-			<Option target="test"/>
-		</Unit>
 		<Unit filename="C:/Users/lichk/source/repos/hospital/hospital/headers/ui_shifts_modal.h">
 			<Option target="test"/>
 		</Unit>

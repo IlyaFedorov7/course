@@ -1,0 +1,28 @@
+var class_ui___editor =
+[
+    [ "retranslateUi", "class_ui___editor.html#a9fc1453ff3ac9f8c6572fdb39c2a3609", null ],
+    [ "setupUi", "class_ui___editor.html#a13932818d0d49f186c7156fae1fe8e28", null ],
+    [ "centralwidget", "class_ui___editor.html#a6ca71f17ad882d108283839c7e5a9e13", null ],
+    [ "doubleSpinBox", "class_ui___editor.html#a630e4d5de9a9a198ce82d0abeddeda5d", null ],
+    [ "gridLayout", "class_ui___editor.html#ada6907ae7c854d5cf0291b43b2f1e403", null ],
+    [ "gridLayout_2", "class_ui___editor.html#a7926cbcf091e0139cb5080e59ba009a6", null ],
+    [ "label", "class_ui___editor.html#a868eb586aafa95973ad6a0ad332f1a26", null ],
+    [ "label_2", "class_ui___editor.html#ab37cdc298daf1f6cbe7eca8ee9cd2527", null ],
+    [ "label_3", "class_ui___editor.html#af310e16fcae5c8d8a5b7c4f788cbfcf0", null ],
+    [ "label_4", "class_ui___editor.html#a5935ed2aa7346e12a40282c59ac33f65", null ],
+    [ "label_5", "class_ui___editor.html#ae14f8a30d3f1353e51b4a088301eb7cf", null ],
+    [ "label_6", "class_ui___editor.html#a816bdfeb019a4a8e31be84df793540fd", null ],
+    [ "label_7", "class_ui___editor.html#a9a2eb4829092ddb998653c508d296942", null ],
+    [ "lineEdit", "class_ui___editor.html#a9d100905bd2b6e478d4bc323c8e93c8e", null ],
+    [ "lineEdit_2", "class_ui___editor.html#a008ba066ca9f73510f692473940f30be", null ],
+    [ "lineEdit_3", "class_ui___editor.html#a323fce1466ac004feb2812a2eecbb766", null ],
+    [ "lineEdit_4", "class_ui___editor.html#ab523effd0afbb42582fdc99110e4d7af", null ],
+    [ "lineEdit_5", "class_ui___editor.html#abc853d6b34b78da19f165222c43976dc", null ],
+    [ "menubar", "class_ui___editor.html#ae6a2ddd6142d11dc47bf19648e99770e", null ],
+    [ "pushButton", "class_ui___editor.html#a7c104c2b177e23266a89a87e0e49b445", null ],
+    [ "pushButton_2", "class_ui___editor.html#a049c0ad7848aca121c5678512911a587", null ],
+    [ "pushButton_3", "class_ui___editor.html#a0c7ba617e02202294a5e354d8a7d337e", null ],
+    [ "spinBox", "class_ui___editor.html#a93c0a8f442333b20b725693da7b41635", null ],
+    [ "statusbar", "class_ui___editor.html#a08eb88dcbba08f11d289315889e40666", null ],
+    [ "widget", "class_ui___editor.html#a08d11447df196c72aa98652a62848326", null ]
+];

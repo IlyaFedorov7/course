@@ -40,11 +40,6 @@
 			"K6S233IZAZ/moc_ui_editor.cpp"
 		],
 		[
-			"C:/Users/lichk/source/repos/hospital/hospital/headers/ui_main_window.h",
-			"Mu",
-			"K6S233IZAZ/moc_ui_main_window.cpp"
-		],
-		[
 			"C:/Users/lichk/source/repos/hospital/hospital/headers/ui_shifts_modal.h",
 			"Mu",
 			"K6S233IZAZ/moc_ui_shifts_modal.cpp"

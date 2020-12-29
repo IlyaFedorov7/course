@@ -1,11 +1,12 @@
 #pragma once
 #include <QMainWindow>
 #include "ui_editor.h"
-
+/// класс модального окна для добавления/редактирования сотрудников
 class Editor : public QMainWindow {
 	Q_OBJECT
 public:
 	Editor(QWidget* parent = nullptr);
+	/// передает данные врача окну при нажатии вызове его едитора
 	void prepareEditor(int ID);
 private:
 	Ui_Editor ui;
@@ -17,5 +18,6 @@ private slots:
 	void update();
 	void deleteRecord();
 signals:
+	/// передает сигнал в главное окно
 	void comeback();
 };

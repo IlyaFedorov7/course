@@ -19,7 +19,7 @@
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
-
+/// Класс интерефейса для call_modal
 class Ui_call_modal
 {
 public:

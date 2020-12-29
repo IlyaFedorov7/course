@@ -19,7 +19,7 @@
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
-
+/// Класс графического интерфейса shifts_modal
 class Ui_shifts_modal
 {
 public:

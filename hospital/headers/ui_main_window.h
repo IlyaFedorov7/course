@@ -25,7 +25,7 @@
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
-
+/// класс интерфейса главного окна
 class Ui_MainWindow
 {
 public:

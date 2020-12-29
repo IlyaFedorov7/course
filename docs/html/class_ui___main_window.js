@@ -1,0 +1,28 @@
+var class_ui___main_window =
+[
+    [ "retranslateUi", "class_ui___main_window.html#a097dd160c3534a204904cb374412c618", null ],
+    [ "setupUi", "class_ui___main_window.html#acf4a0872c4c77d8f43a2ec66ed849b58", null ],
+    [ "callTable", "class_ui___main_window.html#a24580d213157039c1d860447405f05a7", null ],
+    [ "centralwidget", "class_ui___main_window.html#a356f1cf3ebda15f1fac59467ee081b74", null ],
+    [ "comboBox", "class_ui___main_window.html#af4df84479fcdbcc4c6d2d3e39046317a", null ],
+    [ "employeeTable", "class_ui___main_window.html#a8171159a04b7562f982c05a4da73f135", null ],
+    [ "horizontalLayout", "class_ui___main_window.html#acd6fdc9ebacc4b25b834162380d75ce8", null ],
+    [ "lineEdit", "class_ui___main_window.html#a7a5b9a4633d64f502ce81da3202d828c", null ],
+    [ "menubar", "class_ui___main_window.html#adf43d9a67adaec750aaa956b5e082f09", null ],
+    [ "pushButton", "class_ui___main_window.html#ad332d93084584930878f1daf5f84cdbf", null ],
+    [ "pushButton_2", "class_ui___main_window.html#a59a7d8124bce933d63f53f2153d447b4", null ],
+    [ "shiftTable", "class_ui___main_window.html#a3412fb1112f2474d7dd673d5bcbf7023", null ],
+    [ "statusbar", "class_ui___main_window.html#a1687cceb1e2787aa1f83e50433943a91", null ],
+    [ "tab", "class_ui___main_window.html#a3efc28c664e9f5115095aafbbc5ac6bc", null ],
+    [ "tab_2", "class_ui___main_window.html#a83495b23cbc6810f81978dc0d584b810", null ],
+    [ "tab_3", "class_ui___main_window.html#a41c7e77dd12b9445e13dbe8fb5ae1488", null ],
+    [ "tabWidget", "class_ui___main_window.html#a3260b943854b841c986f47c4726ee7f9", null ],
+    [ "verticalLayout", "class_ui___main_window.html#aecd96a04789fcfec3f98d80390ad8184", null ],
+    [ "verticalLayout_2", "class_ui___main_window.html#a0c01bad60d9f422a1258e710635a2f65", null ],
+    [ "verticalLayout_3", "class_ui___main_window.html#a38b8a4b887f3b58e2a49e7905ae6f1f0", null ],
+    [ "verticalLayout_4", "class_ui___main_window.html#a6f40fc110b15410c00837a446d57bdbe", null ],
+    [ "verticalLayout_5", "class_ui___main_window.html#afcc20a3d5058037a00cdc6122f231848", null ],
+    [ "verticalLayout_6", "class_ui___main_window.html#a93c190b085c63a667c535ba0bbcfec7c", null ],
+    [ "verticalLayout_7", "class_ui___main_window.html#a7b66d5d6ab55f3977317359d09a42345", null ],
+    [ "verticalLayout_8", "class_ui___main_window.html#aaa8cc393d5a44562d629a9f646d2c6dd", null ]
+];

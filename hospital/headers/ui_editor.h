@@ -23,7 +23,7 @@
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
-
+/// класс интерфейса для Editor
 class Ui_Editor
 {
 public:
