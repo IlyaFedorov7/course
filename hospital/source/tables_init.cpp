@@ -12,7 +12,8 @@ int main(int argc, char* argv[]) {
 	db.setDatabaseName("data.db");
 	std::cout << db.open();
 	QSqlQuery query;
-	std::ifstream in("../../../../hospital/source/tables_init.sql");
+	std::ifstream in("./tables_init.sql");
+	std::cout<<in.is_open();
 		while (getline(in, line)) {
 			std::cout << query.exec(line.c_str());
 			qDebug() << query.lastError().text();
