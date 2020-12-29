@@ -44,7 +44,7 @@ void MainWindow::updateTables() {
 	inner join Specializacia_and_Vrach on ID=ID_Vrach 
 	inner join Specializacia on Kod_Sp_Specializacia=Kod_Sp
 	inner join ZpVedomost on Kod_Z_ZpVedomost=Kod_Z
-	where FIO like :start)", ui.employeeTable);
+	where :chosen like :start)", ui.employeeTable);
 	}
 	else if (currentPage == 1) {
 		addData(R"(
@@ -56,7 +56,7 @@ void MainWindow::updateTables() {
 	inner join ZpVedomost on Kod_Z_ZpVedomost=Kod_Z
 	left join Smena_and_Vrach on ID=Smena_and_Vrach.ID_Vrach
 	left join Smena on Kod_Sm_Smena=Kod_Sm
-	where FIO like :start
+	where :chosen like :start
 	group by ID)", ui.shiftTable);
 	}
 	else {
@@ -69,7 +69,7 @@ void MainWindow::updateTables() {
 	inner join ZpVedomost on Kod_Z_ZpVedomost=Kod_Z
 	left join Vyzovy_and_Vrach on ID=Vyzovy_and_Vrach.ID_Vrach
 	left join Vyzovy on Kod_V=Kod_V_Vyzovy
-	where FIO like :start
+	where :chosen like :start
 	group by ID)", ui.callTable);
 	}
 	//QSqlQueryModel* shiftModel = new QSqlQueryModel();
@@ -79,10 +79,13 @@ void MainWindow::updateTables() {
 }
 
 void MainWindow::addData(std::string request, QTableView *table) {
+	std::map<QString, std::string> dict = {{"ФИО","FIO"},
+																		{"Квалификация", "Kfalifikacia"}, {"Специализация", "Name_type"}};
+	request.replace(request.find(":chosen"), 7, dict[ui.comboBox->currentText()]);
 	QSqlQuery query;
 	query.prepare(request.c_str());
 	query.bindValue(":start", QString("%1%").arg(filter));
-	query.exec();
+	std::cout<<query.exec();
 	model->setQuery(query);
 	table->setModel(model);
 	table->resizeColumnsToContents();
