@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-a2bb671fb2e355d32ddedadfc24e7d1e hospital/CMakeFiles/tables_init_autogen
-af196a605fc68929c3e482bfb3a40631 hospital/CMakeFiles/test_autogen
