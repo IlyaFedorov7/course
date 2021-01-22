@@ -14,12 +14,14 @@ target_link_libraries(test PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION
 #add_executable(tables_init "source/tables_init.cpp"  )
 #target_link_libraries(tables_init PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Gui Qt${QT_VERSION_MAJOR}::Sql)
 
-install(FILES $<TARGET_FILE:Qt5::Core> DESTINATION $<TARGET_FILE_DIR:test>)
-install(FILES $<TARGET_FILE:Qt5::Gui> DESTINATION $<TARGET_FILE_DIR:test>)
-install(FILES $<TARGET_FILE:Qt5::Widgets> DESTINATION $<TARGET_FILE_DIR:test>)
-install(FILES $<TARGET_FILE:Qt5::Sql> DESTINATION $<TARGET_FILE_DIR:test>)
+install(TARGETS test DESTINATION bin)
 
-install(FILES $<TARGET_FILE:Qt5::QSQLiteDriverPlugin> DESTINATION $<TARGET_FILE_DIR:test>/sqldrivers)
-install(FILES $<TARGET_FILE:Qt5::QWindowsIntegrationPlugin> DESTINATION $<TARGET_FILE_DIR:test>/platforms)
-install(FILES $<TARGET_FILE:Qt5::QWindowsDirect2DIntegrationPlugin> DESTINATION $<TARGET_FILE_DIR:test>/platforms)
-file(COPY ${PROJECT_SOURCE_DIR}/hospital/data.db DESTINATION ${CMAKE_BINARY_DIR}/hospital)
+install(FILES $<TARGET_FILE:Qt5::Core> DESTINATION bin)
+install(FILES $<TARGET_FILE:Qt5::Gui> DESTINATION bin)
+install(FILES $<TARGET_FILE:Qt5::Widgets> DESTINATION bin)
+install(FILES $<TARGET_FILE:Qt5::Sql> DESTINATION bin)
+
+install(FILES $<TARGET_FILE:Qt5::QSQLiteDriverPlugin> DESTINATION bin/sqldrivers)
+install(FILES $<TARGET_FILE:Qt5::QWindowsIntegrationPlugin> DESTINATION bin/platforms)
+install(FILES $<TARGET_FILE:Qt5::QWindowsDirect2DIntegrationPlugin> DESTINATION bin/platforms)
+install(FILES ${PROJECT_SOURCE_DIR}/hospital/data.db DESTINATION bin)
