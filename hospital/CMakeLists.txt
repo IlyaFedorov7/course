@@ -7,14 +7,14 @@ set(CMAKE_PREFIX_PATH "/")
 
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 include_directories(headers)
-add_executable (test "source/hospital.cpp"  "source/main_window.cpp" "headers/main_window.h"  "source/editor.cpp" "headers/ui_shifts_modal.h" "headers/shifts_modal.h" "source/shifts_modal.cpp" "headers/ui_call_modal.h" "headers/call_modal.h" "source/call_modal.cpp"    "headers/ui_editor.h" "headers/editor.h")
+add_executable (Control_system "source/hospital.cpp"  "source/main_window.cpp" "headers/main_window.h"  "source/editor.cpp" "headers/ui_shifts_modal.h" "headers/shifts_modal.h" "source/shifts_modal.cpp" "headers/ui_call_modal.h" "headers/call_modal.h" "source/call_modal.cpp"    "headers/ui_editor.h" "headers/editor.h")
 find_package(QT NAMES Qt6 Qt5 COMPONENTS Widgets Core Gui Sql REQUIRED)
 find_package(Qt${QT_VERSION_MAJOR} COMPONENTS Widgets Core Gui Sql REQUIRED)
-target_link_libraries(test PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Gui Qt${QT_VERSION_MAJOR}::Sql)
+target_link_libraries(Control_system PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Gui Qt${QT_VERSION_MAJOR}::Sql)
 #add_executable(tables_init "source/tables_init.cpp"  )
 #target_link_libraries(tables_init PRIVATE Qt${QT_VERSION_MAJOR}::Widgets Qt${QT_VERSION_MAJOR}::Core Qt${QT_VERSION_MAJOR}::Gui Qt${QT_VERSION_MAJOR}::Sql)
 
-install(TARGETS test DESTINATION bin)
+install(TARGETS Control_system DESTINATION bin)
 
 install(FILES $<TARGET_FILE:Qt5::Core> DESTINATION bin)
 install(FILES $<TARGET_FILE:Qt5::Gui> DESTINATION bin)
